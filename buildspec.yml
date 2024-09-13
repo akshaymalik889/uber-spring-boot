@@ -14,7 +14,6 @@ phases:
     commands:
       - echo Building, Testing and packaging the application...
       - mvn package
-      - ls -la target/
   post_build:
     commands:
       - echo Build, Testing and packaging completed.
