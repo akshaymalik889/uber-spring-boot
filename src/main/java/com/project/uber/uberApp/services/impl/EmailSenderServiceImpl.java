@@ -15,7 +15,6 @@ public class EmailSenderServiceImpl implements EmailSenderService {
 
     private final JavaMailSender javaMailSender;
 
-
     @Override
     public void sendEmail(String toEmail, String subject, String body) {
 
